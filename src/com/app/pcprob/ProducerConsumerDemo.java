@@ -4,7 +4,8 @@ import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
-public class ProducerConsumerDemo {
+public class
+ProducerConsumerDemo {
     private static final BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(10);
     private static final Random random = new Random();
 

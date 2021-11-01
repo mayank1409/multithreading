@@ -31,7 +31,7 @@ public class ThreadPoolDemo {
         }
         executorService.shutdown();
         try {
-            executorService.awaitTermination(15, TimeUnit.SECONDS);
+            executorService.awaitTermination(1, TimeUnit.MINUTES);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -84,6 +84,6 @@ public class SyncBlockDemo {
 
         long end = System.currentTimeMillis();
         System.out.println("Time taken : " + (end - start));
-        System.out.println("List1 size " + worker.getList1().size() +"\n List2 size :" + worker.getList2().size());
+        System.out.println("List1 size " + worker.getList1().size() +"\nList2 size :" + worker.getList2().size());
     }
 }
